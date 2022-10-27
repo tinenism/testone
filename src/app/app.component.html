@@ -1,0 +1,23 @@
+<mat-sidenav-container>
+    <mat-sidenav #onClick mode="side"  closed>
+        Sidenav content
+    </mat-sidenav>
+    <!-- Body -->
+    <mat-sidenav-content>
+        <div class="content">
+            <div class="toolbr">
+                <mat-toolbar>
+                    <button mat-button (click)="onClick.toggle()">
+                      <mat-icon class="mat-18">menu</mat-icon>  
+                    </button>
+                    <span>Fishkada</span>
+                </mat-toolbar>
+            </div>
+            <main>
+                <!--main content -->
+
+                
+            </main>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
